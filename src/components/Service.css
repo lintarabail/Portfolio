@@ -340,14 +340,16 @@
     margin-left: 26px;
 }
 .card{
-    width: 383px;
-    height: 1106px;
+    height: 929px;
     margin-top: 54px;
+    width: 280px;
+
 }
 .crd2{
-left: 3px !important;
+left: 30px !important;
 width: auto;
 }
+
 
 }
   

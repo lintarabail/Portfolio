@@ -47,3 +47,13 @@
     color: #ff6eff;
     
 }
+
+/* responsiveness */
+
+@media only screen and (max-width: 600px) {
+.exp{
+    flex-direction: column;
+    height: 600px;
+    
+}
+}

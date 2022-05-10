@@ -84,3 +84,42 @@
     left: 24rem;
     top: 8rem;
 }
+@media only screen and (max-width: 600px) {
+.work{
+    flex-direction: column;
+}
+.right{
+    top: 88px;
+    left: -272px;
+}
+.purple{
+    left: 21rem;
+}
+.pink{
+    left: 21rem;
+}
+.maincir{
+    height: 16rem;
+    width: 16rem;
+}
+.maincir>:first-child {
+    left: 5rem;
+    top: -3rem;
+}
+.maincir>:nth-child(2) {
+    left: 5rem;
+    top: 5rem;
+}
+.maincir>:nth-child(3) {
+    left: -2rem;
+    top: 5rem;
+}
+.maincir>:nth-child(4) {
+    left: 5rem;
+    top: 13rem;
+}
+.maincir>:nth-child(5) {
+    left: 13rem;
+    top: 5rem
+}
+}
