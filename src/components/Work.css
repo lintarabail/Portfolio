@@ -101,6 +101,7 @@
 .maincir{
     height: 16rem;
     width: 16rem;
+    left: 17rem;
 }
 .maincir>:first-child {
     left: 5rem;

@@ -71,8 +71,10 @@ textarea{
 }
 .form-right, form {
     display: flex;
-    position: relative;
-    left: -370px;
+    left: -57px;
     margin-top: 27px;
+    position: relative;
+    width: 383px;
+    align-items: flex-start;
 }
 }
