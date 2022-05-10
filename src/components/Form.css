@@ -68,6 +68,8 @@ textarea{
 @media only screen and (max-width: 600px) {
 .form{
     flex-direction:column;
+    height: 83vh;
+
 
 }
 .form-right, form {

@@ -88,6 +88,8 @@
 .work{
     flex-direction: column;
     overflow-x: hidden;
+    height: 107vh;
+
 }
 .right{
     top: 88px;
