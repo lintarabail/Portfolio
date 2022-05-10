@@ -54,6 +54,7 @@
 .exp{
     flex-direction: column;
     height: 600px;
+    overflow-x: hidden;
     
 }
 }

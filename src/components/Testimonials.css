@@ -62,6 +62,7 @@
 @media only screen and (max-width: 600px) {
 .wrapper{
     margin-top: 4rem;
+    overflow-x: hidden;
 
 }
 

@@ -313,6 +313,8 @@
         height: 200vh;
         margin-top: 0;
         flex-direction: column;
+        overflow-x: hidden;
+
     }
     
 .CV>:nth-child(1){
@@ -348,6 +350,39 @@
 .crd2{
 left: 30px !important;
 width: auto;
+}
+.blur11{
+    display: none;
+}
+.blur22{
+    display: none;
+}
+.blur33{
+    display: none;
+}
+.blur44{
+    display: none;
+}
+.blur55{
+    display: none;
+}
+.blur66{
+    display: none;
+}
+.blur77{
+    display: none;
+}
+.blur88{
+    display: none;
+}
+.blur99{
+    display: none;
+}
+.blur0{
+    display: none;
+}
+.blur1{
+    display: none;
 }
 
 

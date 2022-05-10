@@ -45,6 +45,8 @@
 @media only screen and (max-width: 600px) {
 .portfolio{
     height: 126vh;
+    overflow-x: hidden;
+
 }
 .portfolio-slider .swiper-slide{
    width: 326px;

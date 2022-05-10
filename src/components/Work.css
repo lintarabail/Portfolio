@@ -87,6 +87,7 @@
 @media only screen and (max-width: 600px) {
 .work{
     flex-direction: column;
+    overflow-x: hidden;
 }
 .right{
     top: 88px;

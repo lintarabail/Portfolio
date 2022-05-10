@@ -19,6 +19,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         box-shadow: 5px 5px 60px rgb(255, 160, 255); 
+        overflow-x: hidden;
       
 }
 .name{
