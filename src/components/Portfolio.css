@@ -42,3 +42,12 @@
     border-radius: 19px;
     
 }
+@media only screen and (max-width: 600px) {
+.portfolio{
+    height: 126vh;
+}
+.portfolio-slider .swiper-slide{
+   width: 326px;
+ 
+}
+}
