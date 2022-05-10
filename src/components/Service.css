@@ -334,6 +334,7 @@
     left: -12rem;
     display: flex;
     flex-direction: column;
+    animation: none;
 }
 .card{
     width: 383px;
