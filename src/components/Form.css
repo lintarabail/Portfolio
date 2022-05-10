@@ -1,0 +1,65 @@
+.form{
+    height: 55vh;
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    margin-top: 11rem;
+    margin-bottom: 8rem;
+}
+.form-right{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+    left: 293px;
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 11px;
+}
+form>input,
+textarea{
+    margin: 20px;
+    box-shadow: inset 2px 2px 5px #4d1a44, inset -5px -5px 10px #fff;
+    width: 100%;
+    transition: all 0.2s  ease-in-out;
+    appearance: none;
+    -webkit-appearance:none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: rgb(245, 240, 240);
+    text-shadow: 1px 1px 0 #fff;
+
+}
+.form-right button{
+    height: 34px;
+    width: 120px;
+    border: rgb(253, 193, 250);
+    border-radius: 20px;
+     background-image: linear-gradient(to top, #e819e9, #e040eb, #d957ec, #d268ec, #cc76eb, #cb79ec, #c97bec, #c87eed, #ca77f1, #cd70f4, #cf68f8, #d25ffb); 
+    margin-right: 104px;
+    margin-top: 42px;
+    box-shadow:5px 5px 30px  #ff95f1 ;
+    cursor: pointer;
+    font-size: 27px;
+    color: rgb(86, 8, 131);
+    margin-left: 75px;
+    font-family: 'Patrick Hand', cursive;
+}
+.form-right button:hover{
+    background: rgb(255, 200, 252);
+    box-shadow: 5px 5px 20px purple;
+}

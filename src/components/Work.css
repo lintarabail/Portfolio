@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.work{
+    height: 90vh;
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    margin-top: 9rem;
+    margin-bottom: 8rem;
+    
+}
+.right{
+    position: relative;
+
+}
+.maincir{
+    left: 16rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: 5px 0px 20px #8d8a8a;
+    top: 2rem;
+    background: white;
+}
+.maincir>*{
+    position: absolute;
+
+}
+.maincir>:nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+.maincir>:nth-child(2){
+    
+        top: 6rem;
+        left: 6rem;
+    
+}
+.maincir>:nth-child(3){
+    top: 6rem;
+    left: -3rem;
+}
+.maincir>:nth-child(4){
+    top: 15rem;
+    left: 6rem;
+}
+.maincir>:nth-child(5){
+    top: 6rem;
+    left: 15rem;
+}
+.seccir{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid rgb(224, 220, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: 5px 5px 10px rgb(170, 170, 170);
+    background: white;
+}
+.seccir>img{
+    transform: scale(0.6);
+}
+.bg-cir{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.purple{
+    background: rgb(218, 109, 252);
+    left: 24rem;
+    top: 0rem;
+}
+.pink{
+    background: rgb(255, 158, 223);
+    left: 24rem;
+    top: 8rem;
+}

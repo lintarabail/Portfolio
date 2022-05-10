@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap"  );
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.portfolio span:nth-child(1){
+    color: purple;
+    font-size: 4rem;
+    font-family: 'Cookie', cursive;
+
+}
+.portfolio span:nth-child(2){
+    color: rgb(10, 1, 10);
+    font-size: 3.5rem;
+    font-family: 'Cookie', cursive;
+
+}
+.portfolio .swiper{
+    overflow: visible!important;
+
+}
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.portfolio-slider .swiper-slide{
+    width: 20rem;
+}
+.portfolio img{
+    width: 23rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius: 19px;
+    
+}

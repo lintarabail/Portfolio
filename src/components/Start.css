@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap"  );
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"  );
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.intro{
+    display: flex;
+    height: 100vh;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+
+
+
+}
+.i-name{
+    color: rgb(19, 0, 0);
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+
+   
+}
+.i-name>:nth-child(1){
+    color: #a13fb4;
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 3.5rem;
+    font-family: 'Cookie', cursive;
+
+   
+}
+.i-name>:nth-child(2){
+    color: #3a033b;
+    margin-left: 70px;
+    font-size: 2.5rem;
+    font-family: 'Cookie', cursive;
+
+   
+}
+.i-name>:nth-child(3){
+    color: #460542;
+    margin-left: 75px;
+    font-size: 2.5rem;
+    font-family: 'Cookie', cursive;
+
+  
+   
+
+}
+.introbutton{
+    height: 34px;
+    width: 120px;
+    border: rgb(253, 193, 250);
+    border-radius: 20px;
+     background-image: linear-gradient(to top, #e819e9, #e040eb, #d957ec, #d268ec, #cc76eb, #cb79ec, #c97bec, #c87eed, #ca77f1, #cd70f4, #cf68f8, #d25ffb); 
+    margin-right: 104px;
+    margin-top: 42px;
+    box-shadow:5px 5px 30px  #ff95f1 ;
+    cursor: pointer;
+    font-size: 27px;
+    color: rgb(86, 8, 131);
+    margin-left: 75px;
+    font-family: 'Patrick Hand', cursive;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+    }
+    @keyframes myAnim {
+        0% {
+            transform: translate(0);
+        }
+    
+        20% {
+            transform: translate(-2px, 2px);
+        }
+    
+        40% {
+            transform: translate(-2px, -2px);
+        }
+    
+        60% {
+            transform: translate(2px, 2px);
+        }
+    
+        80% {
+            transform: translate(2px, -2px);
+        }
+    
+        100% {
+            transform: translate(0);
+        }
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+}
+.introbutton:hover{
+    background-image: linear-gradient(to top, #f7dbf8, #f1d7f4, #ebd3f0, #e6cfec, #e0cbe8, #e0cce8, #dfcde7, #dfcee7, #e3d4ea, #e8daed, #ece0f1, #f0e6f4);
+    color: #250737;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 40px;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+
+}
+
+
+.pic{
+    flex:  1;
+    position: relative;
+    top: -281px;
+    height: 659px;
+    width: 864px;
+    left: 506px;
+   
+   
+        -webkit-animation-name: lightSpeedIn;
+        animation-name: lightSpeedIn;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes lightSpeedIn {
+        0% {
+        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+        }
+        60% {
+        -webkit-transform: skewX(20deg);
+        transform: skewX(20deg);
+        opacity: 1;
+        }
+        80% {
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
+        opacity: 1;
+        }
+        100% {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+        }
+        }
+        @keyframes lightSpeedIn {
+        0% {
+        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+        }
+        60% {
+        -webkit-transform: skewX(20deg);
+        transform: skewX(20deg);
+        opacity: 1;
+        }
+        80% {
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
+        opacity: 1;
+        }
+        100% {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+        }
+        } 
+        
+
+
+.rocket{
+    position: relative;
+    top: -182px;
+    left: 77px;
+    animation: myAnim 2s ease 0s 27 normal both;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.web1{
+    position: relative;
+    top: -457px;
+    left: 798px;
+    -webkit-animation:jump 1s ease 0s infinite normal;
+    -moz-animation:jump 1s ease 0s infinite normal;
+    -ms-animation:jump 1s ease 0s infinite normal;
+    animation:jump 1s ease 0s infinite normal;
+}
+.web2{
+    position: relative;
+    top: -998px;
+    left: 548px;
+    -webkit-animation:jump 1s ease 0s infinite normal;
+    -moz-animation:jump 1s ease 0s infinite normal;
+    -ms-animation:jump 1s ease 0s infinite normal;
+    animation:jump 1s ease 0s infinite normal;
+}
+.web3{
+    position: relative;
+    top: -1346px;
+    left: 959px;
+    -webkit-animation:jump 1s ease 0s infinite normal;
+    -moz-animation:jump 1s ease 0s infinite normal;
+    -ms-animation:jump 1s ease 0s infinite normal;
+    animation:jump 1s ease 0s infinite normal;
+}
+
+
+@-webkit-keyframes jump{
+    0%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    20%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    40%{ -webkit-transform:translateY(-30px); transform:translateY(-30px); }
+    50%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    60%{ -webkit-transform:translateY(-15px); transform:translateY(-15px); }
+    80%{ -webkit-transform:translateY(0); transform:translateY(0); }
+    100%{ -webkit-transform:translateY(0);transform:translateY(0); }
+    }
+    
+    @keyframes jump{
+    0%{ transform:translateY(0); }
+    20%{ transform:translateY(0); }
+    40%{ transform:translateY(-30px); }
+    50%{ transform:translateY(0); }
+    60%{ transform:translateY(-15px); }
+    80%{ transform:translateY(0); }
+    100%{ transform:translateY(0); }
+    }
+    .introbutton a {
+        text-decoration: none;
+    }
+
+
+    /* responsive */
+    @media only screen and (max-width: 600px) {
+    .i-name {
+        top: 12px;
+        left: -44px;
+        margin: 21px;
+        padding: 10px;
+        height: 343px;
+    }
+    .intro{
+        height: 108vh;
+    
+    }
+    .i-name>:nth-child(1){
+        font-size: 3rem;
+    }
+    .i-name>:nth-child(2){
+        font-size: 2rem;
+    }
+    .i-name>:nth-child(3){
+        font-size: 2rem;
+    }
+    .pic{
+        top: 41px;
+        left: 27px;
+        height: 300px;
+        width: 356px;
+    
+    }
+    .web1 {
+        top: -36px;
+        left: 152px;
+        width: 207px;
+        height: 95px;
+    }
+    .web2 {
+        top: -250px;
+        left: 103px;
+        width: 207px;
+        height: 95px;
+    }
+    .web3 {
+        top: -318px;
+        left: 245px;
+        width: 207px;
+        height: 95px;
+    }
+    .introbutton {
+        height: 33px;
+        font-size: 20px;
+        width: 85px;
+    }
+
+    }

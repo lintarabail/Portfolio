@@ -1,0 +1,61 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap"  );
+
+
+.wrapper{
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.t-heading{
+    align-items: center;
+}
+.t-heading>*{
+    font-size: 3.5rem;
+    font-family: 'Cookie', cursive;
+
+}
+.t-heading span:nth-child(2){
+    color: blueviolet;
+}
+.testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 44rem;
+    height: 23rem;
+    background-color: rgb(187 203 203 / 16%);;
+    border: 7px solid rgb(248, 184, 248);
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 20px;
+}
+.testi>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.testi>span{
+    color: rgb(55, 8, 99);
+}
+.wrapper .swiper{
+    width: 100%;
+    height: 70%;
+    /* overflow: visible!important; */
+
+}
+.wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .swiper-pagination-bullet-active{
+    background: purple;
+}

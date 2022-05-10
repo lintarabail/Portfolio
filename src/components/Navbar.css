@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap"  );
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap"  );
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  .nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #880eb3, #9a0dbb, #ac0ac3, #be07ca, #d002d1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 5px 5px 60px rgb(255, 160, 255); 
+      
+}
+.name{
+    font-size: 1.25rem;
+    color: white;
+    margin: 12px;
+    cursor: pointer;
+    font-family: 'Cookie', cursive;
+
+}
+
+    .navitems>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    margin-top: 21px;
+}
+.navitems ul a li{
+    list-style: none;
+}
+
+.navitems ul li a{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.navitems>ul>a>li:hover{
+    cursor: pointer;
+    color: rgb(244, 190, 255);
+}
+.navitems>ul>a>li::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+ }
+ .navitems>ul>a>li:hover::after{
+     content: '';
+     height: 2px;
+     width: 100%;
+     background-color: #fa8edf;
+     display: block;
+ }
+
+.navbutton>a>button{
+    height: 34px;
+    width: 120px;
+    border: rgb(255, 106, 248);
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #ffe0f1, #f8dbf4, #eed7f7, #e1d4fa, #d1d2fd, #cbcffe, #c5cdfe, #becaff, #c6c5ff, #d2beff, #e1b7ff, #f1aeff);
+    margin-right: 104px;
+    margin-top: 12px;
+    box-shadow:5px 5px 30px  #ff95f1 ;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(86, 8, 131);
+    font-family: 'Patrick Hand', cursive;
+
+} 
+.navbutton>a>button:hover{
+    background-image: linear-gradient(to top, #f7dbf8, #f1d7f4, #ebd3f0, #e6cfec, #e0cbe8, #e0cce8, #dfcde7, #dfcee7, #e3d4ea, #e8daed, #ece0f1, #f0e6f4);
+    color: #250737;
+}
+   
+.navbutton a{
+    text-decoration: none;
+}
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .nav{
+      width: 374px;
+      overflow-x: hidden;
+
+    }
+    .navitems>ul{
+    display: none;
+    }
+    .navbutton>a>button{
+        margin-top: 13px;
+        margin-left: 51px;
+    }
+    .name{
+        margin-top: 8px;
+        }
+    .name h1{
+        width: max-content;    }
+        
+  }
