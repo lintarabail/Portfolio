@@ -336,6 +336,8 @@
     flex-direction: column;
     animation: none;
     position: inherit;
+    margin-top: 87px;
+    margin-left: 26px;
 }
 .card{
     width: 383px;
