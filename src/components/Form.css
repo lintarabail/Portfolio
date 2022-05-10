@@ -69,6 +69,7 @@ textarea{
 .form{
     flex-direction:column;
     height: 83vh;
+    margin-bottom: 0px;
 
 
 }

@@ -314,6 +314,7 @@
         margin-top: 0;
         flex-direction: column;
         overflow-x: hidden;
+        margin-bottom: 0px;
 
     }
     
@@ -382,6 +383,24 @@ width: auto;
     display: none;
 }
 .blur1{
+    display: none;
+}
+.blur2{
+    display: none;
+}
+.blur3{
+    display: none;
+}
+.blur4{
+    display: none;
+}
+.blur5{
+    display: none;
+}
+.blur6{
+    display: none;
+}
+.blur7{
     display: none;
 }
 
